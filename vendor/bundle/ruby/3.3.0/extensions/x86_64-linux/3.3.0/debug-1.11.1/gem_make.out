@@ -1,0 +1,19 @@
+current directory: /home/pedroazevedo/scrapperwebservice/vendor/bundle/ruby/3.3.0/gems/debug-1.11.1/ext/debug
+/home/pedroazevedo/.rbenv/versions/3.3.10/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/pedroazevedo/scrapperwebservice/vendor/bundle/ruby/3.3.0/gems/debug-1.11.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20260221-3538-1zp7dd sitelibdir\=./.gem.20260221-3538-1zp7dd clean
+
+current directory: /home/pedroazevedo/scrapperwebservice/vendor/bundle/ruby/3.3.0/gems/debug-1.11.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20260221-3538-1zp7dd sitelibdir\=./.gem.20260221-3538-1zp7dd
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/pedroazevedo/scrapperwebservice/vendor/bundle/ruby/3.3.0/gems/debug-1.11.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20260221-3538-1zp7dd sitelibdir\=./.gem.20260221-3538-1zp7dd install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20260221-3538-1zp7dd/debug
+
+current directory: /home/pedroazevedo/scrapperwebservice/vendor/bundle/ruby/3.3.0/gems/debug-1.11.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20260221-3538-1zp7dd sitelibdir\=./.gem.20260221-3538-1zp7dd clean

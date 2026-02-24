@@ -1,0 +1,5 @@
+<%= form_with url: api_v1_sessions_path, scope: :user, method: :post, local: true do |f| %>
+  <%= f.email_field :email, placeholder: "Email" %>
+  <%= f.password_field :password, placeholder: "Senha" %>
+  <%= f.submit "Login" %>
+<% end %>
