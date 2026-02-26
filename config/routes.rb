@@ -27,5 +27,7 @@ Rails.application.routes.draw do
     end
   end
 
+  resource :users, only: [:new, :create]
+
   root to: "api/v1/sessions#index"
 end

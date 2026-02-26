@@ -1,0 +1,5 @@
+<%= form_with model: @user, local: true do | user | %>
+    <%= user.text_field :email, placeholder: "Email" %>
+    <%= user.password_field :password, placeholder: "password" %>
+    <%= user.submit "Save" %>
+<% end %>
